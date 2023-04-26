@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+ 
+  height: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-heading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 4rem;
+  color:black;
+}
+.main-heading::after { 
+  content: "";
+  display: block;
+  position: relative;
+  width: 48%;
+  margin-bottom: 15px;
+  left: 30%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.input input {
+  width: 18%;
+  margin-bottom: 14px;
+  margin-top:-8px;
+  height: 40px;
+  border-radius: 5%;
+  border: 3px solid black;
+  text-align: right;
+}
+.button {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  background-color:white;
+  color: black;
+  margin: 2px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 15%;
+}
+.button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.buttonNew {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 15%;
+}
+.buttonNew:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.zero {
+  width: 125px;
+  height: 60px;
+}
+.sign {
+  color: rgb(234 21 11);
+}
+.divide {
+  font-size: 24px;
+}
